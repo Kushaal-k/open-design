@@ -641,6 +641,7 @@ export function EntryShell({
                     onOpenLiveArtifact={onOpenLiveArtifact}
                     onDelete={onDeleteProject}
                     onRename={onRenameProject}
+                    onNewProject={() => openNewProject()}
                   />
                 </div>
               )
