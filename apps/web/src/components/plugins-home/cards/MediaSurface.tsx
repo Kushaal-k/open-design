@@ -85,9 +85,6 @@ function MediaFallback({
   return (
     <div className="plugins-home__media-fallback" aria-hidden>
       <span className="plugins-home__media-fallback-glyph">{glyph}</span>
-      <span className="plugins-home__media-fallback-icon">
-        <Icon name={icon} size={15} />
-      </span>
     </div>
   );
 }
